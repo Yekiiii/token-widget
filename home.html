@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2 class="text-center">Crypto Information</h2>
+                <select class="form-control" id="crypto-select">
+                    <option value="bitcoin">Bitcoin</option>
+                    <option value="ethereum">Ethereum</option>
+                    <option value="tether">Tether</option>
+                    <option value="usd-coin">USD Coin</option>
+                </select>
+                <div class="widget mt-4 col-md-12">
+                    <img class="img-fluid" id="token-image" src="" alt="Token Image">
+                    <h1 class="text-center" id="token-name">Token Name: Loading...</h1>
+                    <div class="row">
+                        <div class="col-border col-md-4">
+                            <p id="market-cap">Market Cap: Loading...</p>
+                        </div>
+                        <div class="col-border col-md-4">
+                            <p id="price">Price: Loading...</p>
+                        </div>
+                        <div class="col-border col-md-4">
+                            <p id="volume">24H Trading Volume: Loading...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
