@@ -26,5 +26,5 @@ const selectElement = document.getElementById("crypto-select");
             const selectedValue = selectElement.value;
             fetchData(selectedValue);
         });
-// Call the fetchData function to load data
+        
 fetchData(selectElement.value);
